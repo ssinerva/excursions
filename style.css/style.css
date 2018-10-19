@@ -1,0 +1,274 @@
+body {
+font-family: 'Open Sans Condensed', sans-serif;
+font-size: 15px;
+color: seashell;
+opacity: 0.9;
+text-align: center;
+background-color: black;
+}
+
+.topnav {
+position: relative;
+display: inline;
+  height: 60px;
+  width: 100%;
+color: white;
+border-bottom: 1px solid white;
+float: left;
+}
+
+
+.topnav a {
+  display: inline-block;
+  font-size: 18px;
+color: seashell;
+margin-top: 10px;
+padding-right: 50px;
+opacity: 0.6;
+letter-spacing: 2px;
+}
+
+.topnav a:hover {
+color: gold;
+}
+
+.container {
+position:relative;
+pointer-events: none;
+margin-bottom: 20px;
+z-index: 0;
+}
+
+.container video {
+    position:relative;
+    margin-top: -80px;
+
+}
+
+.Excursion {
+  position: relative;
+  top: -700px;
+  left: 0;
+  letter-spacing: 6px;
+}
+
+  .Excursion h1 {
+  font-size: 80px;
+  color: pearl white;
+}
+
+.Header {
+position: relative;
+display: inline;
+overflow: hidden;
+  float: center;
+  font-family: sans-serif;
+  color: seashell;
+  top: -450px;
+}
+
+.Header a {
+color: #ffec80;
+font-size: 21px;
+opacity: 0.7;
+}
+
+
+.Background1 {
+
+  background-color: black;
+  position: relative;
+  float: center;
+  top: -400px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+#About  {
+  text-align: center;
+  position: relative;
+  float: center;
+  color: pearl white;
+  padding-top: 15px;
+  letter-spacing:2px;
+  font-size: 16px;
+}
+
+#About h2 {
+  font-size: 21px;
+}
+
+.Planimg {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  align-items: row;
+  top: -300px;
+  color: #0F2940;
+  font-size: 40px;
+  text-align: left;
+
+}
+
+.Planimg img {
+  width: 100%;
+  height: 100%;
+}
+
+
+.Planimg:hover img {
+  filter: blur(4px);
+  transition: 1.5s;
+}
+
+.Planimg :not(img){
+  position: absolute;
+  top: 30%;
+
+}
+
+
+.Discoverimg{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  align-items: row;
+  top: -300px;
+color: #0F2940;
+font-size: 40px;
+text-align: left;
+}
+
+.Discoverimg img {
+  width: 100%;
+  height: 100%
+}
+
+.Discoverimg:hover img {
+  filter: blur(4px);
+  transition: 1.5s;
+}
+
+
+.Discoverimg :not(img) {
+  position: absolute;
+  top: 30%;
+}
+
+.Enjoyimg{
+  width: 300px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  margin: 4px;
+  align-items: row;
+  top: -300px;
+  color: #0F2940;
+  font-size: 40px;
+  text-align: left;
+}
+
+.Enjoyimg img {
+  width: 100%;
+  height: 100%
+}
+
+.Enjoyimg:hover img {
+  filter: blur(4px);
+  transition: 1.5s;
+}
+
+.Enjoyimg :not(img) {
+  position: absolute;
+  top: 30%;
+}
+
+
+.Background2 {
+  background-color: black;
+  position: relative;
+  float: center;
+  top: -250px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+
+#Mission {
+  text-align: center;
+  position: relative;
+  float: center;
+  color: pearl white;
+  padding-top: 15px;
+  font-size: 16px;
+  letter-spacing:2px;
+}
+
+#Mission h2 {
+  font-size: 21px;
+}
+
+
+.link {
+  position:relative;
+  margin-top: -80px;
+  float: left;
+left: 300px;
+bottom: 100px;
+}
+
+.link a {
+  position: absolute;
+  float: center;
+bottom: 330px;
+}
+
+.link video {
+      position:relative;
+      margin-top: -80px;
+}
+
+#Locations {
+display: flex;
+width: 100%;
+height: 150px;
+  background-color: #0F2940;
+  position: relative;
+  color: pearl white;
+  padding-top: 15px;
+  font-size: 16px;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+bottom: -400px;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: center;
+}
+
+
+.London {
+  display: inline-flex;
+position: relative;
+float: left;
+margin-top: 50px;
+margin-left: 20px;
+
+}
+
+.New-York {
+  display: inline-flex;
+position: relative;
+float: left;
+margin-top: 50px;
+margin-right: 50px;
+}
+
+.Copyright{
+  position: relative;
+float: left;
+  font-size: 9px;
+}
